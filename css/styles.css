@@ -14,7 +14,13 @@ h1 {
   font-weight: bold;
 }
 
-h3{
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
   font-family: "Montserrat";
   font-weight: bold;
   font-size: 1.4rem;
@@ -24,48 +30,75 @@ h3{
   padding: 3% 15%;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
 }
 
-.navbar{
+.navbar {
   padding-bottom: 4.5rem;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 15px;
 }
 
-.nav-link{
+.nav-link {
   font-family: "Montserrat";
   font-weight: lighter;
   font-size: 1rem;
 }
 
-.download-button{
+.download-button {
   margin: 5% 3% 5% 0;
 }
 
-.phone-img{
+.phone-img {
   width: 60%;
   transform: rotate(25deg);
 }
 
-#features{
+#features {
   padding: 7% 15%;
 }
 
-.feature-box{
+.feature-box {
   text-align: center;
   padding: 5%;
 }
 
-.icon{
+.icon {
   color: #ef8172;
   margin-bottom: 1rem;
 }
 
-.icon:hover{
+.icon:hover {
   color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20Px 20px 50px 20px;
 }
