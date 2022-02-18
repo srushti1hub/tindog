@@ -7,6 +7,12 @@ body {
   color: #fff;
 }
 
+.tindog-icon {
+  color: #fff;
+  margin-right: 15px;
+  margin-left: 0;
+}
+
 h1 {
   font-family: "Montserrat";
   font-size: 3rem;
@@ -17,6 +23,7 @@ h1 {
 h2 {
   font-family: "Montserrat";
   font-size: 3rem;
+  font-weight: bold;
   line-height: 1.5;
 }
 
@@ -27,7 +34,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .navbar-brand {
@@ -45,7 +52,7 @@ h3 {
 
 .nav-link {
   font-family: "Montserrat";
-  font-weight: lighter;
+  font-weight: 400;
   font-size: 1rem;
 }
 
@@ -56,10 +63,14 @@ h3 {
 .phone-img {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
 }
 
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box {
@@ -101,4 +112,67 @@ h3 {
 .press-img {
   width: 15%;
   margin: 20Px 20px 50px 20px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-item {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-icons {
+  margin: 10px;
+}
+
+.footer-icons:hover {
+  color: #ef8172;
+}
+
+.copyright {
+  margin: 15px;
+}
+
+@media (max-width: 1028px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .phone-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .cta-heading {
+    font-size: 2rem;
+  }
 }
